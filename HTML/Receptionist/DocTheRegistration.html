@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BSPC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BootStrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- BootStrap Theme -->
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <!-- JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+    
+<body>
+<div class="container">
+       <div class="page-header;">
+            <h1 style = "margin-left: 300px; margin-right: 250px; margin-top: 50px ;color : #E32934; font-size: 35px">
+            Bahamas Sports Physio Center
+            </h1>      
+        </div>
+</div>
+
+<!--Navbar-->
+<nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="SearchPatient.html">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="PatientRegistration.html">Registration</a></li>
+            </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Information <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="ListDoctor.html">Doctor</a></li>
+                <li><a href="ListTherapist.html">Therapist</a></li>
+                <li><a href="ListNurse.html">Nurse</a></li>
+				<li><a href="ListAppointment.html">Appointment</a></li>
+				<li><a href="ListEquipment.html">Equipment</a></li>
+				<li><a href="ListTreatment.html">Treatment</a></li>
+            </ul>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Report <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Number of Patient During A Time Period</a></li>
+				<li><a href="#">Equipment Never Used</a></li>
+				<li><a href="#">List of All Patients</a></li>
+				<li><a href="#">List of All Therapist</a></li>
+				<li><a href="ListTherapist.html">List of Current Therapist</a></li>
+				<li><a href="SearchPatient.html">Patient Reservation</a></li>
+				<li><a href="#">HCP Availability</a></li>
+				<li><a href="#">query 8</a></li>
+				<li><a href="#">query 9</a></li>
+				<li><a href="#">query 10</a></li>
+				<li><a href="#">query 11</a></li>
+            </ul>
+         </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="Loging.html"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+          </ul>
+      </div>
+ </nav>
+   
+    
+    
+
+
+<div class="container">
+    <div class="col-sm-6">
+        <h2>Registration Form</h2>
+        <form class="form-horizontal" action=" ">
+            
+				<label class="radio-inline">
+				<input type="radio" name="optradio">Doctor
+				</label>
+				<label class="radio-inline">
+				<input type="radio" name="optradio">Therapist
+				</label>
+				<label class="radio-inline">
+				<input type="radio" name="optradio">Nurse
+				</label>
+			
+			<br/>
+			<br/>
+			
+		   <div class="form-group">
+                    <label class="control-label col-sm-3" for="FirstName">First Name:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="FName" class="form-control" id="FirstName" placeholder=" " name="FirstName">
+                    </div>
+            </div>
+            
+            <div class="form-group">
+                    <label class="control-label col-sm-3" for="LastName">Last Name:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="LName" class="form-control" id="LastName" placeholder=" " name="Last">
+                    </div>
+            </div>
+            
+            <div class="form-group">
+                    <label class="control-label col-sm-3" for="PHN">Password:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="Password" class="form-control" id="HealthNum" placeholder=" " name="Password">
+                    </div>
+            </div>
+            
+            <div class="form-group">
+                    <label class="control-label col-sm-3" for="Age">Age:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="Age" class="form-control" id="Age" placeholder=" " name="Age">
+                    </div>
+            </div>
+            
+            <div class="form-group">
+                    <label class="control-label col-sm-3" for="Age">Phone Number:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="PhoneNum" class="form-control" id="PhoneNum" placeholder=" " name="PhoneNUm">
+                    </div>
+            </div>
+			
+			            <div class="form-group">
+                    <label class="control-label col-sm-3" for="Ex">Experience:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="Exp" class="form-control" id="Exp" placeholder=" " name="Exp">
+                    </div>
+            </div>
+			
+			
+			<div class="form-group">
+				<label for="comment">Notes:</label>
+				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+            
+            <div class="form-group"> 
+                
+                <div class="col-sm-offset-2 col-lg-9" style="margin-left: 200px">
+					<a href="ListDoctor.html" style ="width:100px" class="btn btn-success" role="button">Sumbit</a>
+					<a href="SearchPatient.html" style ="width:100px" class="btn btn-danger" role="button">Reset</a>
+                </div>  
+                
+            </div>
+            
+        </form>
+        
+    </div>
+	
+    
+    <div class="col-sm-6"></div>
+</div>
+
+</body>
+</html>

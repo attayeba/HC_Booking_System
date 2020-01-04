@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BSPC</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- BootStrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- BootStrap Theme -->
+  <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+    
+<body>
+    
+<div class="container">
+        <div class="page-header;">
+            <h1 style = "margin-left: 300px; margin-right: 250px; margin-top: 50px ;color : #E32934; font-size: 35px">
+            Bahamas Sports Physio Center
+            </h1>      
+        </div>
+</div>
+
+<!-- NavBar-->
+<nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+          
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="Doctor.html">Home</a></li>
+         </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="Loging.html"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+          </ul>
+      </div>
+ </nav>
+<div class="container">
+    <div class="col-sm-6">
+        <h2>Patient Form</h2>
+        <form class="form-horizontal" action=" ">
+            
+            <div class="form-group">
+                    <label class="control-label col-sm-3" for="FirstName">First Name:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="FName" class="form-control" id="FirstName" placeholder=" " name="FirstName">
+                    </div>
+            </div>
+            
+            <div class="form-group">
+                    <label class="control-label col-sm-3" for="LastName">Last Name:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="LName" class="form-control" id="LastName" placeholder=" " name="Last">
+                    </div>
+            </div>
+            
+            
+            <div class="form-group">
+                    <label class="control-label col-sm-3" for="Age">Phone Number:</label>
+                    
+                    <div class="col-lg-8">
+                        <input type="PhoneNum" class="form-control" id="PhoneNum" placeholder=" " name="PhoneNUm">
+                    </div>
+            </div>
+			
+			<div class="form-group">
+				<label for="comment">Notes:</label>
+				<textarea class="form-control" rows="5" id="comment"></textarea>
+			</div>
+            
+            <div class="form-group"> 
+                
+                <div class="col-sm-offset-2 col-lg-9" style="margin-left: 200px">
+					<a href="Doctor.html" style ="width:100px" class="btn btn-success" role="button">Sumbit</a>
+					<a href="Doctor.html" style ="width:100px" class="btn btn-danger" role="button">Reset</a>
+                </div>  
+                
+            </div>
+            
+        </form>
+        
+    </div>
+	
+    
+    <div class="col-sm-6"></div>
+</div>
+
+</body>
+</html>
